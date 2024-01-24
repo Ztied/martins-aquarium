@@ -1,0 +1,12 @@
+.fish-List {
+border: 1px black;
+
+}
+
+
+
+.fish__card {
+    display: flex;
+    flex-direction: row;
+ }
+
