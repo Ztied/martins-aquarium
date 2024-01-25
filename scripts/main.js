@@ -1,5 +1,5 @@
 // Import the FishList function from the correct module
-import { FishList } from './fishlist.js'
+import { FishList } from './fish/fishlist.js'
 
 /*
     What is the CSS selector for the element where you
@@ -14,7 +14,7 @@ const parentHTMLElement = document.querySelector(".fish-List")
 parentHTMLElement.innerHTML = fishListHTML
 
 
-import { getFish } from './database.js'
+import { getFish } from './fish/database.js'
 
 const allFish = getFish()
 

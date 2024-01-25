@@ -1,12 +1,42 @@
-.fish-List {
-border: 1px black;
+.fish__list {
+    display: flex;
+    flex-flow:column wrap;
+    justify-content: left;
+    
+    
+}
+.fish__card {
+    width: 200px;
+    background-color: red;
+    display: flex;
+    
+}
+    
+    
 
+.fish__image {
+   width: 100px;
+   height: auto;
+   justify-content: center;
+   display: flex;
+   padding: 5px;
 }
 
+.fish__description {
+    
+    position: relative; 
+    
+}
 
-
-.fish__card {
-    display: flex;
-    flex-direction: row;
- }
+.fish__description{
+     background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 1px;
+    
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* margin: 13em;  */
+     
+}
 
