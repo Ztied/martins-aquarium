@@ -1,14 +1,22 @@
 .fish__list {
     display: flex;
-    flex-flow:column wrap;
-    justify-content: left;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+    margin: 0 auto;
+    
     
     
 }
 .fish__card {
-    width: 200px;
-    background-color: red;
+    width: calc(25% - 20px); /* 25% to have 4 items in a row, subtract padding */
+    margin: 10px; /* Add margin to create space between items */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
     display: flex;
+    flex-direction: column; /* Align items in a column */
+    align-items: center;
     
 }
     
@@ -20,6 +28,8 @@
    justify-content: center;
    display: flex;
    padding: 5px;
+   
+   
 }
 
 .fish__description {
@@ -28,9 +38,11 @@
     
 }
 
-.fish__description{
+.fish__description,  .total__location {
      background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 1px;
+    border-radius: 2.5px;
+    
+    
     
     top: 0;
     left: 0;
@@ -40,3 +52,60 @@
      
 }
 
+.location__card {
+    padding-top: 10px;
+    padding-left: 5px;
+    /* width: 100vw; */
+    
+    
+}
+.location__list {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+
+.tip__card {
+    /* padding-top: 10px; */
+    margin: 20px;
+    /* width: 150px; */
+    display: flex;
+    
+    /* margin-bottom: 15px; */
+}
+
+.tip__inall {
+   font-weight: bold;
+}
+
+
+
+.sidenav {
+    height: 90%;
+    width: 180px;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    background-color: #028a78;
+    overflow-x: hidden;
+    padding-top: 20px;
+    display: flex;
+    border-radius: 10px;
+    margin-top: 25px;
+    border-radius: 10px;
+    
+  }
+  
+  .sidenav a {
+    padding: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    margin-top: 10px;
+    border-radius: 10px;
+    
+  }

@@ -36,7 +36,7 @@ const database = {
             image: 'data:image/jpeg;base64,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',
             name: 'Swordtail',
             species: 'Xiphophorus hellerii',
-            length: 4,
+            length: 5,
             location: 'Freshwater aquariums',
             food: 'Flakes, small insects'
           },
@@ -59,57 +59,55 @@ const database = {
     ]
 }
 
+const fishTipsAndCare = [
+  {
+      title: 'Water Quality',
+      description: 'Maintain optimal water quality for your fish by regularly testing and adjusting pH levels, ammonia, nitrites, and nitrates.'
+  },
+  {
+      title: 'Feeding Schedule',
+      description: 'Establish a consistent feeding schedule for your fish, providing them with a balanced and appropriate diet based on their species.'
+  },
+  {
+      title: 'Tank Cleaning',
+      description: 'Regularly clean the fish tank by removing debris, vacuuming the substrate, and changing a portion of the water to keep it clean and healthy.'
+  },
+  
+]
 
-
-/*const database = {
-
-    fish: [
-        {
-            id: 1 ,
-            name: "Blue Fish",
-            type: "rare",
-            size: 3
-
-        },
-        {
-            id: 2,
-            name: "Blue Fish",
-            type: "rare",
-            size: 3  
-        },
-        {
-            id: 3,
-            name: "Blue Fish",
-            type: "rare",
-            size: 3  
-        },
-        {
-            id: 4,
-            name: "Blue Fish",
-            type: "rare",
-            size: 3  
-        },
-        {
-            id: 5,
-            name: "Blue Fish",
-            type: "rare",
-            size: 3  
-        },
-        {
-            id: 6,
-            name: "Blue Fish",
-            type: "rare",
-            size: 3  
-        },
-        {
-            id: 7,
-            name: "Blue Fish",
-            type: "rare",
-            size: 3  
-        }
-    ]
-}*/
+const harvestLocations = [
+  {
+      id: 1,
+      name: "Lake Paradise",
+      description: "A serene lake with abundant fish species.",
+      fishTypes: ["Gold Fish", "Betta Fish"],
+      accessibility: "Public",
+  },
+  {
+      id: 2,
+      name: "River Rapids Cove",
+      description: "Fast-flowing river with unique fish habitats.",
+      fishTypes: ["Rainbow Trout", "Swordtail", "Guppy"],
+      accessibility: "Private",
+  },
+  {
+      id: 3,
+      name: "Coral Bay",
+      description: "A coastal area with diverse marine life.",
+      fishTypes: ["Tropical Fish", "Angelfish", "Clownfish"],
+      accessibility: "Public",
+  },
+  // Add more locations as needed
+]
 
 export const getFish = () => {
     return database.fish.map(fish => ({...fish}))
+}
+
+export const tips = () => {
+    return fishTipsAndCare.map(fishTipsAndCare => ({...fishTipsAndCare}))
+}
+
+export const location = () => {
+  return harvestLocations.map(harvestLocations => ({...harvestLocations}))
 }

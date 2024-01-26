@@ -1,5 +1,6 @@
-import { mostHolyFish } from "../filter";
-import { soldierFish } from "../filter";
-import { nonHolyFish } from "../filter";
+import { mostHolyFish, soldierFish, nonHolyFish } from "../filter";
 
-console.log(mostHolyFish)
+
+const holyFish = mostHolyFish()
+const soldiersFish = soldierFish()
+const unholyFish = nonHolyFish()
